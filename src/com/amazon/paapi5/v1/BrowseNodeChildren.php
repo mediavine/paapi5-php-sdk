@@ -42,7 +42,7 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        
+
     ];
 
     /**
@@ -51,7 +51,7 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerFormats = [
-        
+
     ];
 
     /**
@@ -81,7 +81,7 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $attributeMap = [
-        
+
     ];
 
     /**
@@ -90,7 +90,7 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $setters = [
-        
+
     ];
 
     /**
@@ -99,7 +99,7 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
      * @var string[]
      */
     protected static $getters = [
-        
+
     ];
 
     /**
@@ -143,9 +143,9 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
-    
 
-    
+
+
 
     /**
      * Associative array for storing property values
@@ -171,9 +171,7 @@ class BrowseNodeChildren implements ModelInterface, ArrayAccess
      */
     public function listInvalidProperties()
     {
-        $invalidProperties = parent::listInvalidProperties();
-
-        return $invalidProperties;
+        return [];
     }
 
     /**
